@@ -3,7 +3,7 @@ name: Clima Data Automation
 # Configuración para ejecutar la acción todos los días a las 00:00 UTC
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '12 0 * * *'
 
 jobs:
   get-weather-data:
