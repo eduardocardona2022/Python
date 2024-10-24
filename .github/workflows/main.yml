@@ -35,6 +35,6 @@ jobs:
       run: |
         git config --local user.email "edwarcardona86@gmail.com"
         git config --local user.name "EduardoCardona2022"
-        git add clima.csv
+        git add clima_data.csv
         git commit -m "Updated clima data"
         git push
